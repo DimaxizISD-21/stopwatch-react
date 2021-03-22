@@ -1,12 +1,12 @@
 import React from 'react';
 
-function DisplayComponent(props) {
+function DisplayComponent({time}) {
   return (
     <div>
-        <span>{(props.time.h >= 10) ? props.time.h : '0' + props.time.h}</span>&nbsp;:&nbsp;
-        <span>{(props.time.m >= 10) ? props.time.m : '0' + props.time.m}</span>&nbsp;:&nbsp;
-        <span>{(props.time.s >= 10) ? props.time.s : '0' + props.time.s}</span>&nbsp;:&nbsp;
-        <span>{(props.time.ms >= 10) ? props.time.ms : '0' + props.time.ms}</span>
+        <span>{(time.h >= 10) ? time.h : '0' + time.h}</span>&nbsp;:&nbsp;
+        <span>{(time.m >= 10) ? time.m : '0' + time.m}</span>&nbsp;:&nbsp;
+        <span>{(time.s >= 10) ? time.s : '0' + time.s}</span>&nbsp;:&nbsp;
+        <span>{(time.ms >= 10) ? time.ms : '0' + time.ms}</span>
     </div>
   );
 }
