@@ -59,6 +59,7 @@ function App() {
     <div className="App">
       <div className='main-section'>
         <div className='clock-holder'>
+          <div className='app-title'>Stopwatch</div>
           <div className='stopwatch'>
             <DisplayComponent time={time}/>
             <BtnComponent 
