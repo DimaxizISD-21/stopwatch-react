@@ -69,6 +69,9 @@ function App() {
               start={start}
             />
           </div>
+          <div className='link-project'>
+            <a href="https://github.com/DimaxizISD-21/stopwatch-react"><b>Ссылка на репозиторий проекта</b></a>
+          </div>
         </div>
       </div>
     </div>

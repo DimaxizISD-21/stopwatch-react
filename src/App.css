@@ -83,3 +83,16 @@ body {
   border: 2px solid #2C3E50;
   color: #fff;
 }
+
+.link-project {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.link-project a {
+  color: #2C3E50;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
